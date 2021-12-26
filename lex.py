@@ -92,10 +92,6 @@ class DogeParser(Parser):
 
 
 if "__main__" == __name__:
-    # lexer = DogeLexer()
-    # data = "a = 1+2"
-    # for tokens in lexer.tokenize(data):
-    #     print(tokens)
 
     lexer = DogeLexer()
     parser = DogeParser()
